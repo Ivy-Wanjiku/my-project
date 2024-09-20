@@ -1,3 +1,4 @@
+import { Work_Sans } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -13,6 +14,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        'work-sans': ['Work Sans', 'sans-serif'],
+      },
+      colors: {
+        customBlue: '#5372FF',
+      },
+      
     },
   },
   plugins: [],
